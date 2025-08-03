@@ -17,10 +17,11 @@ async def get_region(request: Request):
         "Origin": "https://shop2game.com",
         "Referer": "https://shop2game.com/app",
         "User-Agent": "Mozilla/5.0",
-        "x-datadome-clientid": "10BIK2pOeN3Cw42~iX48rEAd2OmRt6MZDJQsEeK5uMirIKyTLO2bV5Ku6~7pJl_3QOmDkJoSzDcAdCAC8J5WRG_fpqrU7crOEq0~_5oqbgJIuVFWkbuUPD~lUpzSweEa",
+        "x-datadome-clientid": "10BIK2pOeN3Cw42~iX48rEAd2OmRt6MZDJQsEeK5uMirIKyTLO2bV5Ku6~7pJl_3QOmDkJoSzDcAdCAC8J5WRG_fpqrU7crOEq0~_5oqbgJIuVFWkbuUPD~lUpzSweEa"
     }
+
     payload = {
-        "app_id": 100067,
+        "app_id": 100084,  # ✅ OB50 version
         "login_id": uid,
         "app_server_id": 0
     }
